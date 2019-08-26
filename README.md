@@ -24,6 +24,11 @@ cd marketPlaceApi
 ## In /src/config/database.js 
 replace the uri with your.
 uri: 'mongodb://yourUser:yourPassword@localhost:yourPort/yourDB'
+
+## In /src/config/auth.js 
+replace the secret and ttl with your.
+secret: 'marketPlaceGoNod03',
+ttl: 86400
 ```
 
 ## Install Dependencies
