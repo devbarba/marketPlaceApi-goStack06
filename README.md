@@ -37,3 +37,32 @@ yarn install
 ```shell
 yarn start 
 ```
+
+## Requisitions
+
+```bash
+### Create User
+```
+```bash
+curl --request POST \
+  --url http://localhost:3000/users \
+  --header 'content-type: application/json' \
+  --data '{
+	"name": "User Name",
+	"email": "sample@example.com",
+	"password": "123456"
+}'
+```
+
+```bash
+### Create Session
+```
+```bash
+curl --request POST \
+  --url http://localhost:3000/sessions \
+  --header 'content-type: application/json' \
+  --data '{
+	"email": "sample@example.com",
+	"password": "123456"
+}'
+```
