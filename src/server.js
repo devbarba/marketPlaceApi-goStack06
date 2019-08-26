@@ -13,6 +13,7 @@ class App {
   }
 
   database () {
+    // useCreateIndex e useNewUrlParser dizem ao mongoose que estamos utilizando versão mais recente do mongodb
     mongoose.connect(databaseConfig.uri, {
       useCreateIndex: true,
       useNewUrlParser: true
