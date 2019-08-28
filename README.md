@@ -33,6 +33,26 @@ secret: 'marketPlaceGoNod03',
 ttl: 86400
 ```
 
+```shell
+## Create .env in the / of the project with these content
+NODE_ENV=development or production
+APP_SECRET=YOUR_APP_SECRET
+APP_TTL=86400
+
+DB_URL=YOUR_MONGODB_URL
+
+REDIS_HOST=YOUR_REDIS_HOST
+REDIS_PORT=YOUR_REDIS_PORT
+
+MAIL_HOST=YOUR_MAIL_HOST
+MAIL_PORT=YOUR_MAIL_PORT
+MAIL_USER=YOUR_MAIL_USER
+MAIL_PASS=YOUR_MAIL_PASS
+MAIL_SECURE=false
+
+SENTRY_DSN=YOUR_SENTRY_DSN
+```
+
 ## Install Dependencies
 
 ```bash
